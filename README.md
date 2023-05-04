@@ -1,6 +1,8 @@
 # Midtrans-Elixir-Api
 An Elixir Module For Midtrans Payment Gateway API 
 
+REQUIRE
+Elixir 1.14.3 (at least > 1.14.0)
 
 ========================
 <h2><b>  SANDBOX </b> </h2>
