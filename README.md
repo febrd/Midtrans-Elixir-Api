@@ -3,10 +3,13 @@ An Elixir Module For Midtrans Payment Gateway API
 
 
 ========================
-<h2><b>  Sandbox </b> </h2>
+<h2><b>  SANDBOX </b> </h2>
 ------------------------
-CREATE DEPOSITO
+
+Create Deposito
+
 ==================
+
 iex(1)> amount =10000
 
 iex(2)> Febrd.Midtrans.create_deposito("0x12345678910", amount)
@@ -21,10 +24,12 @@ Midtrans transaction created successfully. Response body:
 
 }
 
-GET STATUS
+Get Status
+
 ===================
 
 === Code 404 ===
+
 iex(3)> Febrd.Midtrans.get_status("FLIZZY-7K2KI-l2xxxxxxxxsKrqKqk=")
 
 Midtrans Get Status successfully. Response body:
@@ -78,10 +83,15 @@ Midtrans Get Status successfully. Response body:
 
 
 ===================
+
 <h2><b> Production </b> </h2>
+
 ------------------------
+
 CREATE DEPOSITO
+
 ==================
+
 iex(1)> amount =10000
 
 iex(2)> Febrd.Midtrans.create_deposito_prod("0x12345678910", amount)
@@ -96,10 +106,12 @@ Midtrans transaction created successfully. Response body:
 
 }
 
-GET STATUS
+Get Status
+
 ===================
 
 === Code 404 ===
+
 iex(3)> Febrd.Midtrans.get_status("FLIZZY-7K2KI-l2xxxxxxxxsKrqKqk=")
 
 Midtrans Get Status successfully. Response body:
