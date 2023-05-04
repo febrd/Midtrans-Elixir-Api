@@ -86,7 +86,7 @@ Midtrans Get Status successfully. Response body:
 
 ===================
 
-<h2><b> Production </b> </h2>
+<h2><b> PRODUCTION </b> </h2>
 
 ------------------------
 
